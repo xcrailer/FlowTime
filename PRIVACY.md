@@ -37,10 +37,6 @@ FlowTime may request the following macOS permissions:
 
 All data remains on your device (or in your personal iCloud Drive) until you choose to delete it. You can delete all data at any time from Settings > Data > Danger Zone > Delete All Data.
 
-## Children's Privacy
-
-FlowTime does not knowingly collect any information from children under 13.
-
 ## Changes to This Policy
 
 If this policy is updated, the changes will be posted here with a revised date.
