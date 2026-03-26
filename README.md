@@ -1,26 +1,53 @@
- # FlowTime
+# FlowTime
 
-  A focused, privacy-first time tracking app that lives in your macOS menu bar.
+  A focused, privacy-first time tracking app that lives in your macOS menu bar. Track projects, hit daily goals, and
+  review detailed reports — all without leaving what you're working on.
 
   ## Features
 
-  - **Menu Bar Timer** — Start, stop, and switch tasks without leaving what you're working on. Live elapsed time
-  displayed right in the menu bar.
-  - **Projects & Tasks** — Organize work into projects with color coding, client names, and billable rates.
-  - **Daily Dashboard** — Visual progress ring, streak tracking, weekly trends, and quick actions at a glance.
-  - **Timeline & Entries** — Browse, edit, split, merge, and duplicate time entries. Manual entry creation for
-  forgotten time.
-  - **Reports & Charts** — Filter by date range, group by project/client/task/day/tag. Bar charts, pie charts, and
-  hourly breakdowns.
-  - **Export** — CSV, XLSX, PDF, JSON, and ICS formats. PDF reports include billing summaries and branding.
-  - **Import** — Bring in data from CSV or JSON, including Toggl-compatible formats.
-  - **Idle Detection** — Automatically detects when you step away and offers to trim, keep, or discard idle time.
-  - **Daily & Weekly Goals** — Set targets and get notified when you hit them. Track your streak.
-  - **12 Themes** — Default Blue, Nord Aurora, Rosewood, Ocean, Ember, Nightfall, Dracula, One Dark, Catppuccin,
-  Gruvbox, Tokyo Night, and Solarized Dark. Light and dark variants for each.
-  - **iCloud Sync** — Sync your data across Macs.
-  - **Backups** — Automatic and manual local backups with integrity verification and one-click restore.
-  - **No Third-Party Dependencies** — Built entirely with Apple frameworks.
+  ### Menu Bar Timer
+  Start, stop, and switch tasks directly from the menu bar. Live elapsed time is always visible — no need to open a
+  window.
+
+  ### Projects & Tasks
+  Organize work into color-coded projects with client names and billable hourly rates. Create tasks within projects
+  to track time at any level of detail.
+
+  ### Dashboard
+  A daily overview with a visual progress ring, current and best streaks, weekly trend chart, and quick-action tiles.
+
+  ### Timeline & Entries
+  Browse time entries by day. Edit start/end times, add notes and tags, split entries at the midpoint, merge adjacent
+   entries, or duplicate for repeated work. Create manual entries for time you forgot to track.
+
+  ### Reports & Analytics
+  Filter by any date range and group by project, client, task, day, or tag. Includes daily bar charts, project pie
+  charts, hourly heatmaps, and detailed data tables.
+
+  ### Export & Import
+  Export to CSV, XLSX, PDF, JSON, and ICS. PDF reports include billing summaries with your branding. Import from CSV
+  or JSON, including Toggl-compatible formats.
+
+  ### Idle Detection
+  Automatically detects when you step away. When you return, choose to trim the idle time, keep it, or stop the timer
+   at the moment you left.
+
+  ### Goals & Streaks
+  Set daily and weekly time goals. Get notified when you hit them. Track your current streak and personal best.
+
+  ### Themes
+  12 hand-crafted color themes — Default Blue, Nord Aurora, Rosewood, Ocean, Ember, Nightfall, Dracula, One Dark,
+  Catppuccin, Gruvbox, Tokyo Night, and Solarized Dark — each with light and dark variants.
+
+  ### Billing
+  Set hourly rates at the project or task level. View billing amounts per entry, per project, or as a summary across
+  any date range.
+
+  ### Backups
+  Automatic and manual local backups with SQLite integrity verification and one-click restore.
+
+  ### iCloud Sync
+  Optionally sync your time tracking data across Macs using your personal iCloud account.
 
   ## Requirements
 
@@ -28,9 +55,9 @@
 
   ## Pricing
 
-  FlowTime is free to use with up to 2 projects and 3 tasks per project, with 30 days of history.
+  FlowTime is free with up to 2 projects, 3 tasks per project, and 30 days of history.
 
-  **FlowTime Pro** unlocks unlimited projects, tasks, history, exports, themes, and sync:
+  **FlowTime Pro** unlocks everything:
 
   | Plan | Price |
   |------|-------|
@@ -38,24 +65,26 @@
   | Yearly | $9.99/year |
   | Lifetime | $29.99 (one-time) |
 
+  All plans include unlimited projects, tasks, history, exports, themes, and iCloud sync.
+
   ## Privacy
 
   FlowTime does not collect, transmit, or share any personal data. All time tracking data is stored locally on your
-  Mac and optionally synced via your personal iCloud account.
+  Mac. iCloud sync, if enabled, uses your own iCloud account — we never see your data.
 
-  - **No analytics or telemetry**
-  - **No third-party SDKs**
-  - **No account required**
-  - **No data leaves your device** (unless you enable iCloud sync to your own account)
+  - No analytics or telemetry
+  - No third-party SDKs or dependencies
+  - No account required
+  - No data sent to our servers
 
   ### Permissions
 
-  | Permission | Purpose |
-  |------------|---------|
-  | Input Monitoring (optional) | Detects keyboard/mouse idle time so FlowTime can pause your timer when you step
-  away. The app works without this permission — idle detection is simply disabled. |
-  | Notifications (optional) | Idle reminders and daily goal alerts. |
-  | iCloud (optional) | Sync time tracking data across your Macs. |
+  | Permission | Purpose | Required? |
+  |------------|---------|-----------|
+  | Input Monitoring | Detects keyboard and mouse idle time to pause your timer when you step away. | Optional — idle
+   detection is disabled without it. |
+  | Notifications | Idle reminders and daily goal alerts. | Optional |
+  | iCloud | Sync data across your Macs via your personal iCloud account. | Optional |
 
   FlowTime does not access your files, contacts, location, camera, microphone, or any other sensitive data.
 
@@ -63,7 +92,12 @@
 
   ## Support
 
-  If you encounter a bug or have a feature request, please [open an issue](../../issues).
+  For help, questions, or feedback:
+
+  - **Email:** [support@srl.sh](mailto:support@srl.sh)
+  - **Bug Reports:** [Open an issue](../../issues)
+
+  We typically respond within 48 hours.
 
   ## License
 
