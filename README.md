@@ -101,4 +101,4 @@
 
   ## License
 
-  © 2026 FlowTime. All rights reserved.
+  © 2026 Shawn Lee. All rights reserved.
